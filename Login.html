@@ -1,0 +1,64 @@
+<html>
+    <body>
+        <head>
+            <style>
+                body {
+                  margin: 0;
+                  font-family: Arial, Helvetica, sans-serif;
+                }
+                
+                .menu {
+                  overflow: hidden;
+                  background-color: #333;
+                }
+                
+                .menu a {
+                  float: left;
+                  color: #f2f2f2;
+                  text-align: center;
+                  padding: 10px 12px;
+                  text-decoration: none;
+                  font-size: 20px;
+                }
+                
+                .menu a:hover {
+                  background-color: #ddd;
+                  background-blend-mode: #ddd;
+                  color: black;
+                  border-radius: 10px ;
+                  border-color: #333;
+                }
+                
+                .menu a.active {
+                  background-color: #05eeff;
+                  color: white;
+                }
+                </style>
+
+        <nav class="menu">
+              <a href="Index.html">Home</a>
+              <a class="active" href="Login.html">LogIn</a>
+              <a href="registration.html">Register</a>
+              <a href="PostImage.html">Post Image</a>
+          </nav>
+
+            <title>Log In Page</title>
+        </head>
+         <h1>Fill the form below;</h1>
+          <form action="" method="get" class="form-example">
+            <div class="form-example">
+              <label for="name">Enter your name: </label>
+              <input type="text" name="name" id="name" required>
+            </div>
+            <div class="form-example">
+              <label for="email">Enter your email: </label>
+              <input type="email" name="email" id="email" required>
+            </div>
+            <div class="form-example">
+              <input type="submit" value="LogIn!">
+            </div>
+          </form>
+
+          <footer>Hope you're doing good!!</footer>
+    </body>
+</html>
