@@ -2,42 +2,51 @@
 <head>
 <title>Page Title</title>
 </head>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .menu {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .menu a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .menu a:hover {
+    background-color: #ddd;
+    background-blend-mode: #ddd;
+    color: black;
+    border-radius: 10px ;
+    border-color: #333;
+  }
+  
+  .menu a.active {
+    background-color: #05eeff;
+    color: white;
+  }
+footer {
+  width: 1800px;
+  bottom: 0px;
+  background-color: #000;
+  color: #fff;position: absolute;padding-top:20px;
+  padding-bottom:50px;
+  text-align:center;
+  font-size:30px;
+  font-weight:bold;
+}
+  </style>
 <body>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-    }
-    
-    .menu {
-      overflow: hidden;
-      background-color: #333;
-    }
-    
-    .menu a {
-      float: left;
-      color: #f2f2f2;
-      text-align: center;
-      padding: 10px 12px;
-      text-decoration: none;
-      font-size: 20px;
-    }
-    
-    .menu a:hover {
-      background-color: #ddd;
-      background-blend-mode: #ddd;
-      color: black;
-      border-radius: 10px ;
-      border-color: #333;
-    }
-    
-    .menu a.active {
-      background-color: #05eeff;
-      color: white;
-    }
-    </style>
-
-  <nav class="menu">
+    <nav class="menu">
     <a class="active" href="#home">Home</a>
     <a href="Login.html">LogIN</a>
     <a href="registration.html">Registration</a>
